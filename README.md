@@ -12,6 +12,9 @@ Esto se hace por temas de seguridad, para que no queden expuestos datos sensible
 http://localhost:3000/api/er
 
 
+Se ha creado un test con una petición GET dentro del fichero peticiones.rest, que se puede lanzar desde el mismo para obtener los resultados buscados.
+
+
 - Prueba en remoto
 
 El servidor se ha desplegado en la plataforma Heroku. La url del servidor sería https://prueba-taxdown.herokuapp.com e igualmente habría que atacar al endpoint /api/er para obtener los tipos de cambio actualizados:
